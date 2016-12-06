@@ -1,0 +1,158 @@
+header, main, footer{
+    opacity: .85;
+}
+
+.copyrights, .tagline{
+    text-align: center;
+}
+
+footer{
+    line-height: 100px;
+    font-size: 18px;
+    background-color: #F8F8F8;
+    color: #777777;
+    border: #E7E7E7 solid 1px;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.tagline{
+    line-height: 100px;
+    font-size: 40px;
+    background-color: #777777;
+    color: #F8F8F8;
+    border-radius: 2px;
+    margin-bottom: 3px;
+}
+
+.navbar-brand{
+    font-size: 22px;
+}
+
+.navbar-default .navbar-brand{
+    color: black;
+}
+
+.categories{
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+.content, .item, .categories, .iFrame, .product{
+    border: #CCCCCC solid 1px;
+    border-radius: 2px;
+}
+
+.content, .categories, .product{
+    background-color: #F8F8F8;
+}
+
+.item, .iFrame{
+    background-color: white;
+}
+
+ul.nav.nav-tabs.nav-stacked li a{
+    color: #777777;
+}
+
+ul.nav.navbar-nav li a:hover, ul.nav.navbar-nav li a:focus, ul.nav.navbar-nav li a:active{
+    background-color: #E7E7E7;
+}
+
+.content{
+    padding: 0;
+    z-index: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: space-around;
+}
+
+.item{
+    max-width: 30%;
+    padding: 10px;
+}
+
+.item-img{
+    float: left;
+}
+
+.sign{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.categories-head{
+    text-align: center;
+    background-color: #EEEEEE;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.screen-block{
+    background-color:#000;
+    position:fixed;
+    height:100%;
+    width:100%;
+    z-index:99000;
+    opacity:.93;
+}
+
+.iFrame{
+    padding: 20px;
+}
+
+.sign-header{
+    text-align: center;
+    padding-bottom: 20px;
+    font:  18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn{
+    margin-right: 10px;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.product-button{
+    margin: 10px;
+}
+
+html,
+body {
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0 0 auto;
+}
+
+.product{
+    padding: 15px;
+}
+
+.product-img{
+    float: left;
+}
+
+.product-img, .product-form{
+    margin: 15px;
+}
+
+#quantity{
+    margin-right: 15px;
+    margin-left: 15px;
+}
